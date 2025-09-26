@@ -44,4 +44,4 @@ jobs:
           git pull --rebase origin main || true
           git add library_seats.csv
           git commit -m "Update data: $(date)" || echo "No changes"
-          git push origin HEAD:main
+          git push origin HEAD:main || true
