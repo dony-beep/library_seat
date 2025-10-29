@@ -4,8 +4,8 @@ on:
   schedule:
     # UTC 기준 21~23 → KST 06~08
     - cron: "0,30 21-23 * * *"
-    # UTC 기준 0~14 → KST 09~23:30
-    - cron: "0,30 0-14 * * *"
+    # UTC 기준 0~14 → KST 09~24:00
+    - cron: "0,30 0-15 * * *"
   workflow_dispatch:
 
 permissions:
